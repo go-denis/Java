@@ -1,5 +1,5 @@
 package Main;
-
+//1. Задать одномерный массив и найти в нем минимальный и максимальный элементы
 public class Main {
     public static void main(String[] args){
         int[] arr = {234,5345,33,445,234,1,555,4533};
