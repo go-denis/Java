@@ -1,6 +1,6 @@
 package lesson1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 
 public class Main {
@@ -10,7 +10,7 @@ public class Main {
         int count = 0;
         int maxOne = 0;
 
-        for (int i = 0; arr.length < i; i++){
+        for(int i : arr){
             if(arr[i] == 1){
                 count++;
                 if(maxOne < count)
@@ -22,10 +22,12 @@ public class Main {
                 count = 0;
             }
 
-            System.out.println(maxOne);
+
         }
+        System.out.println(maxOne);
     }
-    /**
+
+    /*
     private static void printHelloWorld() {
         Scanner sc = new Scanner(System.in);
 
@@ -35,5 +37,8 @@ public class Main {
         System.out.println("Hello world! " + aa);
     }
 
-     **/
+     */
+
+
+
 }
