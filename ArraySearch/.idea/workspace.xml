@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da8dbad9-0ddb-4a67-b854-bd28eb36362f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Years/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="da8dbad9-0ddb-4a67-b854-bd28eb36362f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
