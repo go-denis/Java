@@ -18,3 +18,7 @@
 - delete_even_numbers - Первое задание
 - Serch_Min_Max_Values - Второе задание
 - Dz3 - Третье задание
+
+Четвертый семинар
+---
+- Semi4/HomeWork
