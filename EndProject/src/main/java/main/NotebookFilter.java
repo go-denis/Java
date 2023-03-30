@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 public class NotebookFilter {
-    public static List filter(List notebooks, Map filters) {
+
+    public static List filter(List<NoteBook> notebooks, Map filters) {
+
         List filteredNotebooks = new ArrayList();
         for (NoteBook notebook : notebooks) {
             boolean allFiltersMatch = true;
