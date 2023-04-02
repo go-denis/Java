@@ -2,7 +2,7 @@ package main;
 
 public class Main {
     public static void main(String[] args){
-        Human Denis = new Human(111111, "Denis",23,"man" );
+        Human Denis = new Human(111111, "Denis",40,"man" );
         Human Artur = new Human(111112, "Artur", 2,"man" );
         Human Nasty = new Human(111113, "Nasty", 22,"woman" );
         Human Ivan = new Human(111114, "Ivan", 1,"man" );

@@ -1,6 +1,6 @@
 package main;
 
-public class Human {
+public class Human implements HumonInteface{
     public Integer passport;
     public String fullName;
     public Integer age;
@@ -14,19 +14,36 @@ public class Human {
         this.gender = gender;
     }
 
+    public Integer getPassport() {
+        return passport;
+    }
+
+    public void setPassport(Integer passport) {
+        this.passport = passport;
+    }
+    @Override
     public String getFullName() {
         return fullName;
     }
-
+    @Override
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-
-    public int getAge() {
+    @Override
+    public Integer getAge() {
         return age;
     }
-
-    public void setAge(int age) {
+    @Override
+    public void setAge(Integer age) {
         this.age = age;
+    }
+    @Override
+    public String getGender() {
+        return gender;
+    }
+
+    @Override
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }
