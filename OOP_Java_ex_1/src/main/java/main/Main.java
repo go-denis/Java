@@ -28,6 +28,9 @@ public class Main {
         System.out.println("Муж Nasty");
         System.out.println(new Search(gt).spend(Nasty, Relationship.vife));
 
+        Cat cat = new Cat();
+        cat.Animal();
+        //System.out.println(cat.Animal());
         // Ищем людей определенного возраста
         System.out.println(new Search(gt).searchAge());
 
