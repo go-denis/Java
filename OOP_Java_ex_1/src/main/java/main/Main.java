@@ -1,5 +1,7 @@
 package main;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args){
         Human Denis = new Human(111111, "Denis",40,"man" );
@@ -8,9 +10,12 @@ public class Main {
         Human Ivan = new Human(111114, "Ivan", 1,"man" );
 
         GeologiTree gt = new GeologiTree();
-        gt.appendPerentChild(Denis, Artur); // Denis родитель Artur
-        gt.appendPerentChild(Nasty, Ivan); // Nasty родитель Ivan
-        gt.appendVifeHusbent(Nasty, Denis); // Nasty жена Denis
+        GeologiInterface gi = gt;
+
+        gi.appendPerentChild(Denis, Artur);
+        //gt.appendPerentChild(Denis, Artur); // Denis родитель Artur
+        gi.appendPerentChild(Nasty, Ivan); // Nasty родитель Ivan
+        gi.appendVifeHusbent(Nasty, Denis); // Nasty жена Denis
 
         // Ищем детей Denis
         System.out.println("Дети Denis");
