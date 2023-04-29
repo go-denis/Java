@@ -48,3 +48,8 @@
 Семинар 4
 ---
 - Java/OOP_Java_ex_1/Src/Главная/java/ - Вот тут две папочки Generic и GenericNext
+
+Семинар 5
+---
+- Java/Seminar  - Задание к семинару 5 
+
